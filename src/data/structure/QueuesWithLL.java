@@ -47,11 +47,11 @@ public class QueuesWithLL {
 			int data= Front.getData();
 			System.out.println("Deleted Element is "+ data);
 			Front= Front.getNextNode();	
-			/*if (Front==null)
+			if (Front==null)
 			{
 				Rear=null;
 			}
-			*/
+			
 			length--;
 		}
 	}
