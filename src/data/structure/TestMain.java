@@ -4,6 +4,16 @@ public class TestMain {
 	 public static void main(String[] args) {
 	 Linkedlist list= new Linkedlist();
 	 DoublyLinkedlist dlist= new DoublyLinkedlist();
+	 QueuesWithLL queue= new QueuesWithLL();
+	 
+	 queue.Enqueue(10);
+	 queue.Enqueue(20);
+	 queue.Dequeue();
+	 queue.Enqueue(30);
+	 queue.Enqueue(40);
+	 queue.Dequeue();
+	 queue.PrintQueue();
+	 System.out.println("----------");
 	 
 	 dlist.insert(0,0);
 	 dlist.insert(10,1);
